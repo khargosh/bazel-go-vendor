@@ -6,7 +6,11 @@ import (
 	"github.com/khargosh/bar"
 )
 
-func printArea(shape bar.Areaer) {
+type Shape interface {
+	Area() float64
+}
+
+func printArea(shape Shape) {
 	fmt.Println(shape.Area())
 }
 
