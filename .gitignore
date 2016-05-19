@@ -1,0 +1,17 @@
+*.a
+*.bkp
+*.o
+*.py[co]
+*.so
+*.swp
+*.test
+*~
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+bazel-bin
+bazel-bazel-go-vendor
+bazel-genfiles
+bazel-out
+bazel-testlogs
