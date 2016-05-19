@@ -8,5 +8,7 @@ go_binary(
   name = "shapes",
   srcs = ["shapes.go"],
   visibility = ["//visibility:public"],
-  deps = ["//vendor/github.com/khargosh/bar:go_default_library"],
+  deps = [
+      "//vendor/github.com/khargosh/bar:go_default_library"
+  ],
 )
